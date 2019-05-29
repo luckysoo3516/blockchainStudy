@@ -1,0 +1,80 @@
+{
+    "contracts": {
+        "/Users/soomin/lecture-tutorial/lottery-smart-contract/contracts/Lottery.sol": {
+            "Lottery": {
+                "abi": [],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a7230582011ff0b3a51e21b5392bd93a0affbf94751265ff5d5ed2dc3a3304470b9a05ef00029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 GT SELFDESTRUCT SIGNEXTEND GASPRICE MLOAD 0xe2 SHL MSTORE8 SWAP3 0xbd SWAP4 LOG0 0xaf 0xfb 0xf9 0x47 MLOAD 0x26 0x5f CREATE2 0xd5 0xed 0x2d 0xc3 LOG3 ADDRESS DIFFICULTY PUSH17 0xB9A05EF000290000000000000000000000 ",
+                        "sourceMap": "34:25:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:25:0;;;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "10600",
+                            "executionCost": "66",
+                            "totalCost": "10666"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/soomin/lecture-tutorial/lottery-smart-contract/contracts/Lottery.sol\":\"Lottery\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/soomin/lecture-tutorial/lottery-smart-contract/contracts/Lottery.sol\":{\"keccak256\":\"0x1f962b812a5063f6c35adb3384b465971843429fa6cbe72d54b31f61b15fc4c2\",\"urls\":[\"bzzr://90d8c88e218d4cfd767836b1eee1b7d74232b9a16cda419b5d3436a8b389e7ec\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "/Users/soomin/lecture-tutorial/lottery-smart-contract/contracts/Lottery.sol": {
+            "ast": {
+                "absolutePath": "/Users/soomin/lecture-tutorial/lottery-smart-contract/contracts/Lottery.sol",
+                "exportedSymbols": {
+                    "Lottery": [
+                        2
+                    ]
+                },
+                "id": 3,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            ">=",
+                            "0.4",
+                            ".21",
+                            "<",
+                            "0.6",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:32:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 2,
+                        "linearizedBaseContracts": [
+                            2
+                        ],
+                        "name": "Lottery",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [],
+                        "scope": 3,
+                        "src": "34:25:0"
+                    }
+                ],
+                "src": "0:59:0"
+            },
+            "id": 0
+        }
+    }
+}
