@@ -1,0 +1,37 @@
+{
+    "jsonrpc": "2.0",
+    "result": {
+        "version": "0.1a",
+        "prev_block_hash": "",
+        "merkle_tree_root_hash": "831da0a095133e4a0dfd7b6527e8d1851a474dfface9748ec2fe2c6464d345ed",
+        "time_stamp": 0,
+        "confirmed_transaction_list": [
+            {
+                "message": "{X}iconNet",
+                "accounts": [
+                    {
+                        "balance": "0x2961fff8ca4a62327800000",
+                        "name": "god",
+                        "address": "hx5a05b58a25a1e5ea0f1d5715e1f655dffc1fb30a"
+                    },
+                    {
+                        "balance": "0x0",
+                        "name": "treasury",
+                        "address": "hx1000000000000000000000000000000000000000"
+                    },
+                    {
+                        "balance": "0x2961fff8ca4a62327800000",
+                        "name": "test_1",
+                        "address": "hx6e1dd0d4432620778b54b2bbc21ac3df961adf89"
+                    }
+                ],
+                "nid": "0x3"
+            }
+        ],
+        "block_hash": "974e2a8fbefad82b30af0ebfd9939314a53cd7ce3c54b19079b59501122987fe",
+        "height": 0,
+        "peer_id": "",
+        "signature": ""
+    },
+    "id": 1234
+}
